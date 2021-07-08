@@ -1,0 +1,12 @@
+valid:
+    accuracy   bleu-4  ctpb  ctps  exps  exs    f1  gpu_mem  hits@1  hits@10  hits@100  hits@5  llen  loss    lr  ltpb  ltps  ltrunc  ltrunclen   mrr  rank  total_train_updates   tpb  tps
+       .4831 .0001015     9  2218 246.4  267 .6643  .001254   .4831    .7566         1   .6929 3.228 2.535 .0050 3.228 795.5       0          0 .5751 10.99                59057 12.23 3013
+
+valid:
+    accuracy  bleu-4  ctpb  ctps  exps  exs    f1  gpu_mem  hits@1  hits@10  hits@100  hits@5  llen  loss    lr  ltpb  ltps  ltrunc  ltrunclen   mrr  rank  total_train_updates   tpb  tps
+       .5019 .000109     9  2288 254.3  267 .6724  .001227   .5019    .7528         1   .7004 3.228 2.489 .0025 3.228 820.9       0          0 .5943 10.51                80091 12.23 3109
+
+valid:
+    accuracy   bleu-4  ctpb  ctps  exps  exs    f1  gpu_mem  hits@1  hits@10  hits@100  hits@5  llen  loss        lr  ltpb  ltps  ltrunc  ltrunclen   mrr  rank  total_train_updates   tpb  tps
+       .5094 .0001128     9  2314 257.1  267 .6737  .001245   .5094    .7566         1   .7004 3.228 2.474 1.907e-08 3.228 830.2       0          0 .6000 10.37               176362 12.23 3145
+
