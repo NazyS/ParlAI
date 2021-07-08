@@ -71,5 +71,36 @@ class WoZTeacher(DialogTeacher):
                     yield (context + '\n' + question, answer, None, None), new_episode
 
 
+class MemnnWozTeacher(WoZTeacher):
+
+    def setup_data(self, input_path):
+        print('loading: ' + input_path)
+
+        new_episode = True
+
+        with PathManager.open(input_path) as file:
+            data = json.load(file)
+
+        for dialogue in data:
+            
+            # dialogue_length = len(dialogue['dialogue'])
+            # new_episode = [False]*dialogue_length
+            # new_episode[-1] = True
+            # new_episode = iter(new_episode)
+
+            for line in dialogue['dialogue']:
+                answer = [':'.join(turn_label) for turn_label in line['turn_label']]
+                if len(answer) != 1:
+                    continue
+                question = "What is the change in the dialogue state?"
+                context = line['transcript']
+                if answer:
+                    yield (context + '\n' + question, answer, None, None), new_episode
+                # is_end = next(new_episode)
+                # if answer and 'request' not in answer:
+                # if answer:
+                #     yield (context + '\n' + question, answer, None, None), is_end
+
+
 class DefaultTeacher(WoZTeacher):
     pass
