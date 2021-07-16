@@ -8,6 +8,8 @@ parlai train_model \
                 --fixed-candidates-path task5/candidates.txt \
                 --eps 1000 \
                 -lr 0.05 \
+                --lr-scheduler cosine \
+                --max-train-steps 20000 \
                 --optimizer adam \
                 --validation-every-n-epochs 10 \
                 --save-after-valid True \
@@ -18,11 +20,12 @@ parlai train_model \
                 -hops 3 \
                 --embedding-size 32 \
                 --task dialog_babi:task:5 \
-                -mf task5/tf_pos_enc/memnn_dialog_babi \
+                -mf task5-3/pos_enc/memnn_dialog_babi \
                 --history-size 10 \
-                --time-features True \
+                --time-features False \
                 --position-encoding True \
-                --tensorboard-log True
+                --tensorboard-log True \
+                $@
                 # --num-workers 4 \
                 # --train-predict True \
                         # default is False

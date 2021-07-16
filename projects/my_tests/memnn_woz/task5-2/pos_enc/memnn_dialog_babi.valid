@@ -1,0 +1,12 @@
+valid:
+    accuracy  bleu-4  ctpb  ctps  exps   exs    f1   gpu_mem  hits@1  hits@10  hits@100  hits@5  llen  loss     lr  ltpb  \
+       .8919   .8734 409.5  2238 512.1 18457 .9703 4.172e-05   .8919    .9490     .9552   .9408 6.896 1.121 .04193 646.1   
+    ltps  ltrunc  ltrunclen   mrr  rank  total_train_updates  tpb  tps  
+    3531       0          0 .9011 1.737                 7336 1056 5770
+
+valid:
+    accuracy  bleu-4  ctpb  ctps  exps   exs    f1  gpu_mem  hits@1  hits@10  hits@100  hits@5  llen  loss      lr  ltpb  \
+       .3447   .3894 409.5  2193 501.7 18457 .5121 4.16e-05   .3447    .7049     .8324   .6222 6.896 52.39 .003635 646.1   
+    ltps  ltrunc  ltrunclen   mrr  rank  total_train_updates  tpb  tps  
+    3460       0          0 .5294 35.91               190736 1056 5653
+
