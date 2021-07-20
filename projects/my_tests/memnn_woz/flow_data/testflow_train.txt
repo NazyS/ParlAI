@@ -1,0 +1,22 @@
+text:Hello	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:Hi	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:Greetings!	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:Hi, How is it going?	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:How are you doing?	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:Nice to meet you.	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:How do you do?	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:Hi, nice to meet you.	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:It is a pleasure to meet you.	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:Top of the morning to you!	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
+text:What's up?	labels:Good day, [Sir/Madam]! Can I speak with [NAME], please?	episode_done:True
+
