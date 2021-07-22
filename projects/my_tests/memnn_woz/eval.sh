@@ -1,19 +1,15 @@
 #!/bin/bash
 
 # use multiprocessing_train for utilizing multiple gpus
-parlai train_model \
+parlai eval_model \
                 --candidates fixed \
                 --eval-candidates fixed \
                 --interactive-candidates fixed \
                 --fixed-candidates-path task5/candidates.txt \
-                --eps 1000 \
                 -lr 0.01 \
                 --lr-scheduler fixed \
                 --lr-scheduler-decay 1 \
                 --optimizer sgd \
-                --validation-every-n-epochs 10 \
-                --save-after-valid True \
-                --validation-patience 100 \
                 --ignore-bad-candidates True \
                 --batchsize 100 \
                 -m memnn \
@@ -25,7 +21,7 @@ parlai train_model \
                 --time-features False \
                 --position-encoding True \
                 --tensorboard-log True \
-                $@
+                # $@
                 # --num-workers 4 \
                 # --lr-scheduler cosine \
                 # --max-train-steps 20000 \

@@ -1,7 +1,7 @@
-Hello
-Hi
+hello
+hi
 good morning
 good afternoon
 good evening
-Greetings!
-What's up?
+greetings
+what's up
