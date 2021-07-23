@@ -19,7 +19,7 @@ parlai eval_model \
                 --datapath ../flow_data \
                 --history-size 10 \
                 --time-features False \
-                --position-encoding True \      
+                --position-encoding True \
                 $@
                 # --validation-every-n-epochs 10 \
                 # --save-after-valid True \
