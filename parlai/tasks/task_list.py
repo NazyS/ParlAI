@@ -1441,4 +1441,10 @@ task_list = [
             "It contains 5k full converesations from session 2 to session 5 (session 1 being PersonaChat) "
         ),
     },
+    {
+        "id": "flow",
+        "display_name": "Flow",
+        "task": "flow",
+        "tags": ["custom"]
+    }
 ]
