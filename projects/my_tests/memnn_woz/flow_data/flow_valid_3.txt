@@ -1,0 +1,29 @@
+1 hello	good day, can I speak with [NAME], please?
+2 that's me	my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+3 i can't pay now	[ESCALATING FURTHER]
+
+1 hello	good day, can I speak with [NAME], please?
+2 that's me	my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+3 i'll pay tomorrow	api_call check_ptp
+4 [FALSE]	[ESCALATING FURTHER]
+
+1 hello	good day, can I speak with [NAME], please?
+2 that's me	my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+3 i'll pay tomorrow	api_call check_ptp
+4 [True]	Thank you for your cooperation. Good luck.
+
+1 hello	good day, can I speak with [NAME], please?
+2 sorry, it's not possible now	when would be the best time for me to call back?
+3 please call back [TIME]	thank you for the information
+
+1 hello	good day, can I speak with [NAME], please?
+2 sorry, it's not possible now	when would be the best time for me to call back?
+3 can't say	okay, thank you, i will try to reach later
+
+1 hello	good day, can I speak with [NAME], please?
+2 sorry, it's not possible now	when would be the best time for me to call back?
+3 sorry, can't help	thank you for your time
+
+1 hello	good day, can I speak with [NAME], please?
+2 you got the wrong number	Can I ask you how long have you been using this number or how can I reach [NAME] ?
+

@@ -1,21 +1,39 @@
-from parlai.core.teachers import ParlAIDialogTeacher
+from parlai.core.teachers import ParlAIDialogTeacher, FbDeprecatedDialogTeacher
 import copy
 import os
 
 
 def _path(opt):
-    dt = opt['task'].split(':')[1:]
+    dt = opt['datatype'].split(':')[0]
+    if dt == 'train':
+        suffix = 'train'
+    elif dt == 'valid':
+        suffix = 'valid'
 
-    datafile = os.path.join(opt['datapath'], '_'.join(dt) + '.txt')
+    tasks = opt['task'].split(':')
 
-    return datafile
+    datafile = os.path.join(
+        opt['datapath'],
+        '_'.join([
+            tasks[1], dt, tasks[2]
+        ]) + '.txt'
+    )
 
-class FlowTeacher(ParlAIDialogTeacher):
+    cands_datafile = os.path.join(
+        opt['datapath'],
+        'candidates.txt'
+    )
+
+    return datafile, cands_datafile
+
+# class FlowTeacher(ParlAIDialogTeacher):
+class FlowTeacher(FbDeprecatedDialogTeacher):
     def __init__(self, opt, shared=None):
         opt = copy.deepcopy(opt)
 
         # get datafile
-        opt['parlaidialogteacher_datafile'] = _path(opt)
+        # opt['parlaidialogteacher_datafile'], opt['cands_datafile'] = _path(opt)
+        opt['datafile'], opt['cands_datafile'] = _path(opt)
 
         super().__init__(opt, shared)
 

@@ -1,0 +1,29 @@
+text:hello	labels:good day, can I speak with [NAME], please?
+text:that's me	labels:my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+text:i can't pay now	labels:[ESCALATING FURTHER]	episode_done:True
+
+text:hello	labels:good day, can I speak with [NAME], please?
+text:that's me	labels:my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+text:i'll pay tomorrow	labels:api_call check_ptp
+text:[FALSE]	labels:[ESCALATING FURTHER]	episode_done:True
+
+text:hello	labels:good day, can I speak with [NAME], please?
+text:that's me	labels:my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+text:i'll pay tomorrow	labels:api_call check_ptp
+text:[True]	labels:Thank you for your cooperation. Good luck.	episode_done:True
+
+text:hello	labels:good day, can I speak with [NAME], please?
+text:sorry, it's not possible now	labels:when would be the best time for me to call back?
+text:please call back [TIME]	labels:thank you for the information	episode_done:True
+
+text:hello	labels:good day, can I speak with [NAME], please?
+text:sorry, it's not possible now	labels:when would be the best time for me to call back?
+text:can't say	labels:okay, thank you, i will try to reach later	episode_done:True
+
+text:hello	labels:good day, can I speak with [NAME], please?
+text:sorry, it's not possible now	labels:when would be the best time for me to call back?
+text:sorry, can't help	labels:thank you for your time	episode_done:True
+
+text:hello	labels:good day, can I speak with [NAME], please?
+text:you got the wrong number	labels:Can I ask you how long have you been using this number or how can I reach [NAME] ?	episode_done:True
+
