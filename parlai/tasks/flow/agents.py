@@ -14,13 +14,15 @@ def _path(opt):
 
     datafile = os.path.join(
         opt['datapath'],
+        tasks[0],
         '_'.join([
-            tasks[1], dt, tasks[2]
+            tasks[1], suffix, tasks[2]
         ]) + '.txt'
     )
 
     cands_datafile = os.path.join(
         opt['datapath'],
+        tasks[0],
         'candidates.txt'
     )
 
