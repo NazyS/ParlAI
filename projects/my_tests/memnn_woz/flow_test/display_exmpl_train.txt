@@ -1,0 +1,335 @@
+2021-08-03 15:51:50,935 WARNING  | [ Executing eval mode with a common set of fixed candidates (n = 10). ]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here he is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i don't know
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here he is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+not sure
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here he is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+later
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here he is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i'm not able to do it now
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here he is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+probably next month or so
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here he is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+as soon as i will get my paycheck
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here she is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i don't know
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here she is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+not sure
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here she is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+later
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here she is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i'm not able to do it now
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here she is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+probably next month or so
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+yeah, here she is
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+as soon as i will get my paycheck
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sure, it is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i don't know
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sure, it is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+not sure
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sure, it is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+later
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sure, it is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i'm not able to do it now
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sure, it is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+probably next month or so
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sure, it is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+as soon as i will get my paycheck
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+it's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i don't know
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+it's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+not sure
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+it's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+later
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+it's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i'm not able to do it now
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+it's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+probably next month or so
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+it's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+as soon as i will get my paycheck
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+i'm speaking
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: okay, thank you, i will try to reach later
+i don't know
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+i'm speaking
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: okay, thank you, i will try to reach later
+not sure
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+i'm speaking
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: okay, thank you, i will try to reach later
+later
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+i'm speaking
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: okay, thank you, i will try to reach later
+i'm not able to do it now
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+i'm speaking
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: okay, thank you, i will try to reach later
+probably next month or so
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+i'm speaking
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: okay, thank you, i will try to reach later
+as soon as i will get my paycheck
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+that is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i don't know
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+that is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+not sure
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+that is me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+later
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time

@@ -1,0 +1,75 @@
+2021-08-03 15:06:05,534 WARNING  | [ Executing eval mode with a common set of fixed candidates (n = 10). ]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+that's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i can't pay now
+    labels: [ESCALATING FURTHER]
+     model: when would be the best time for me to call back?
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+that's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i'll pay tomorrow
+    labels: api_call check_ptp
+     model: when would be the best time for me to call back?
+[FALSE]
+    labels: [ESCALATING FURTHER]
+     model: [ESCALATING FURTHER]
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+that's me
+    labels: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+i'll pay tomorrow
+    labels: api_call check_ptp
+     model: when would be the best time for me to call back?
+[True]
+    labels: Thank you for your cooperation. Good luck.
+     model: thank you for the information
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sorry, it's not possible now
+    labels: when would be the best time for me to call back?
+     model: when would be the best time for me to call back?
+please call back [TIME]
+    labels: thank you for the information
+     model: thank you for the information
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sorry, it's not possible now
+    labels: when would be the best time for me to call back?
+     model: when would be the best time for me to call back?
+can't say
+    labels: okay, thank you, i will try to reach later
+     model: thank you for the information
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+sorry, it's not possible now
+    labels: when would be the best time for me to call back?
+     model: when would be the best time for me to call back?
+sorry, can't help
+    labels: thank you for your time
+     model: my boss, with whom you spoke about the loan, asked me to call you back and clarify when you plan to make a payment, for how much and in which bank?
+- - - NEW EPISODE: flow:flow:3- - -
+hello
+    labels: good day, can I speak with [NAME], please?
+     model: thank you for your time
+you got the wrong number
+    labels: Can I ask you how long have you been using this number or how can I reach [NAME] ?
+     model: [ESCALATING FURTHER]
+2021-08-03 15:06:18,006 INFO     | epoch done
