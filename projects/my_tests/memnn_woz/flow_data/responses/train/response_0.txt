@@ -5,3 +5,6 @@ good afternoon
 good evening
 greetings
 what's up
+allo
+halo
+
