@@ -5,10 +5,10 @@ import os
 
 def _path(opt):
     dt = opt['datatype'].split(':')[0]
-    if dt == 'train':
-        suffix = 'train'
-    elif dt == 'valid':
-        suffix = 'valid'
+    # if dt == 'train':
+    #     suffix = 'train'
+    # elif dt == 'valid':
+    #     suffix = 'valid'
 
     tasks = opt['task'].split(':')
 
@@ -16,7 +16,7 @@ def _path(opt):
         opt['datapath'],
         tasks[0],
         '_'.join([
-            tasks[1], suffix, tasks[2]
+            tasks[1], dt, tasks[2]
         ]) + '.txt'
     )
 
