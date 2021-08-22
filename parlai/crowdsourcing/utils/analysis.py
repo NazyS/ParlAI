@@ -62,7 +62,7 @@ class AbstractResultsCompiler(ABC):
             f'{self.__class__.__name__}__{now.strftime("%Y%m%d_%H%M%S")}',
         )
 
-    def unit_acceptable(self, unit_data: Dict[str, Any]) -> bool:
+    def is_unit_acceptable(self, unit_data: Dict[str, Any]) -> bool:
         """
         Helps filtering units that are compiled. Override for use.
 
@@ -144,14 +144,6 @@ class AbstractTurnAnnotationResultsCompiler(AbstractResultsCompiler):
             self.use_problem_buckets = False
             self.problem_buckets = []
 
-        # Validate problem buckets
-        if self.use_problem_buckets and 'none_all_good' not in self.problem_buckets:
-            # The code relies on a catchall "none" category if the user selects no other
-            # annotation bucket
-            raise ValueError(
-                'There must be a "none_all_good" category in self.problem_buckets!'
-            )
-
 
 class AbstractDataBrowserResultsCompiler(AbstractResultsCompiler):
     """
@@ -218,7 +210,7 @@ class AbstractDataBrowserResultsCompiler(AbstractResultsCompiler):
         task_data = []
         for unit in task_units:
             unit_data = self.get_data_from_unit(unit)
-            if unit_data and self.unit_acceptable(unit_data):
+            if unit_data and self.is_unit_acceptable(unit_data):
                 task_data.append(unit_data)
 
         return task_data
