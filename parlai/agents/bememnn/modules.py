@@ -46,8 +46,10 @@ class BEMemNN(MemNN):
 
         self.memory_hop = Hop(bert_opt['out_dim'])
 
-class BertAsEmbedding(object):
+class BertAsEmbedding(nn.Module):
     def __init__(self, opt, null_idx) -> None:
+        super().__init__()
+
         self.null_idx = null_idx
         self.bert = BertWrapper(
             BertModel.from_pretrained(opt['pretrained_path']),
