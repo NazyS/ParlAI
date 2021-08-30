@@ -1,7 +1,0 @@
-you can call [TIME]
-you can call [DATE]
-it would be best for you to call at [TIME]
-it would be best for you to call at [DATE]
-you can reach him on the [NUMBER]
-you can reach her on the [NUMBER]
-try it at [TIME]
