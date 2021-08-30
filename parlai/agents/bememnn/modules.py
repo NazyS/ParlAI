@@ -59,7 +59,7 @@ class BertAsEmbedding(nn.Module):
             aggregation=opt['bert_aggregation'],
         )
 
-    def __call__(self, batch):
+    def forward(self, batch):
         in_shape = tuple(batch.shape)
         batch = batch.view(-1, in_shape[-1])
 

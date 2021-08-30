@@ -2,7 +2,7 @@ from typing import Optional
 import logging
 
 from parlai.agents.bert_ranker.bi_encoder_ranker import BiEncoderRankerAgent
-from parlai.agents.bert_ranker.helpers import surround
+from parlai.agents.bert_ranker.helpers import surround, add_common_args
 from parlai.agents.memnn.memnn import MemnnAgent
 from parlai.core.torch_ranker_agent import TorchRankerAgent
 from parlai.core.params import ParlaiParser
@@ -19,7 +19,7 @@ class BememnnAgent(MemnnAgent, BiEncoderRankerAgent):
         cls, parser: ParlaiParser, partial_opt: Optional[Opt] = None
     ) -> ParlaiParser:
         # add bert ranker args
-        BiEncoderRankerAgent.add_cmdline_args(parser, partial_opt)
+        add_common_args(parser)
         # add only essential memnn args
         arg_group = parser.add_argument_group('BEMemNN Arguments')
         arg_group.add_argument(
@@ -77,3 +77,6 @@ class BememnnAgent(MemnnAgent, BiEncoderRankerAgent):
             )
             obs['added_start_end_tokens'] = True
         return obs
+
+        # TODO look into possible _set_text_vec method wrong implementation
+        # TODO look into batchify method which is overwritten by memory network, might be inapplicable
