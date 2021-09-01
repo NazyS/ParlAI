@@ -91,6 +91,25 @@ class MessengerBotChatTaskWorld(World):
         self.agent.shutdown()
 
 
+class CustomMessengerBotChatTaskWorld(MessengerBotChatTaskWorld):
+    
+    MODEL_KEY = 'model_1'
+
+    def __init__(self, opt, agent, bot):
+        super().__init__(opt, agent, bot)
+
+    @staticmethod
+    def generate_world(opt, agents):
+        if opt['models'] is None:
+            raise RuntimeError("Model must be specified")
+        return CustomMessengerBotChatTaskWorld(
+            opt,
+            agents[0],
+            create_agent_from_shared(
+                opt['shared_bot_params'][CustomMessengerBotChatTaskWorld.MODEL_KEY]
+            ),
+        )
+
 # ---------- Overworld -------- #
 class MessengerOverworld(World):
     """
