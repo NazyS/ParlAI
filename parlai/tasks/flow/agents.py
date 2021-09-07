@@ -39,6 +39,9 @@ class FlowTeacher(FbDeprecatedDialogTeacher):
 
         super().__init__(opt, shared)
 
+class BahasaTeacher(FlowTeacher):
+    pass
+
 
 class DefaultTeacher(FlowTeacher):
     pass
